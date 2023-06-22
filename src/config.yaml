@@ -1,0 +1,17 @@
+s3_access_key_id: <access-key>
+s3_secret_access_key: <secret-key>
+bucket_id: <bucket-id>
+s3_endpoint_url: <s3-endpoint>
+worker_count:
+  - 2
+  - 4
+  - 8
+  - 16
+part_sizes:
+  - 8
+  - 16
+  - 24
+  - 32
+  - 48
+  - 64
+
